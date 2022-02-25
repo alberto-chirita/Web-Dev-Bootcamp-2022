@@ -4,6 +4,5 @@
   "scm.inputFontSize": 16,
   "debug.console.fontSize": 16,
   "markdown.preview.fontSize": 16,
-  "terminal.integrated.fontSize": 16,
-  "files.autoSave": "afterDelay"
+  "terminal.integrated.fontSize": 16
 }
