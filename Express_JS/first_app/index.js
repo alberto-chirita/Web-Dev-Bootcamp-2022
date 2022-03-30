@@ -10,7 +10,7 @@ const port = 8080;
 
 app
   .get("/", (req, res) => {
-    res.send("This is the home page!");
+    res.send("Welcome to the home page!!!");
   })
   .get("/r/:subreddit", (req, res) => {
     const { subreddit } = req.params;
@@ -44,5 +44,5 @@ app
   });
 
 app.listen(port, () => {
-  console.log("LISTENING ON PORT 3000!");
+  console.log(`LISTENING ON PORT ${port}!`);
 });
